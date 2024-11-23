@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #4cae4c;
+}
+
+.posts {
+    margin-top: 20px;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-size: 16px;
+    color: #333;
+}
+
+.post-meta, .post-tags {
+    font-size: 14px;
+    color: #777;
+}
+
+.post-actions {
+    margin-top: 10px;
+}
+
+.post-actions button {
+    background-color: #0275d8;
+}
+
+.post-actions button:hover {
+    background-color: #025aa5;
+}
+
+.comments {
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 0 5px;
+}
+
+.filter {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter input[type="text"] {
+    width: 60%;
+    display: inline-block;
+}
+
+.filter input[type="submit"] {
+    width: 30%;
+}
